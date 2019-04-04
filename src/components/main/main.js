@@ -10,9 +10,9 @@ class Main extends Component {
         </div>
         <div className = "login-form">
           <form action="/action_page.php" method="get">
-            Email: <input type="text" name="email"/> <br/>
-            Password: <input type="password" name="password"/> <br/>
-            Submit -> <button type="submit" value="Submit" />
+            <input type="text" placeholder="email" name="email"/> <br/>
+            <input type="password" placeholder="password" name="password"/> <br/>
+            Login -> <button type="submit" value="Submit" />
           </form>
         </div>  
       </main>   

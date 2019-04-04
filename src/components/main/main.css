@@ -6,13 +6,22 @@ main {
 }
 
 .welcome {
-  width: 200px;
-  height: 100px;
+  display:flex;
+  width: 35%;
+  height: 50vh;
   background-color: lightgreen;
 }
 
 .login-form {
-    width: 200px;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 40vh;
     background-color: pink;
+}
+
+.login-form > input {
+    margin-bottom: 30px;
 }
