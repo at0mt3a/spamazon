@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+}
+
+.login-form {
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+}
