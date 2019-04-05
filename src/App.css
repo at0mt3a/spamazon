@@ -16,7 +16,6 @@ main {
 footer {
   background-color: blue;
   color: white;
-  flex-grow: .5
-  ;
+  flex-grow: .5;
   text-align: center;
 }
