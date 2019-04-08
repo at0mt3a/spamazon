@@ -6,7 +6,7 @@ import Item from './pages/item/item.js';
 
 class App extends Component {
   render() {
-    return <Home />
+    return <Item />
     ;
   }
 }

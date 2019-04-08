@@ -9,12 +9,24 @@ class Landing extends Component {
     render() {
       return (
         <div className="landing">
-          <header/>
+          <Header />
           <div className="middle">
             <side>blah</side>
-            <main>hullo</main>
+            <main>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+              <div className="item-display"></div>
+            </main>
           </div>
-          <footer/>
+          <Footer/>
         </div>
       );
     }
