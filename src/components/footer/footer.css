@@ -1,0 +1,8 @@
+.foot-home {
+    display: flex;
+    background-color: blue;
+    color: white;
+    flex-grow: .5;
+    justify-content: space-around;
+    align-items: center;
+  }

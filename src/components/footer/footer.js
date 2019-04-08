@@ -4,11 +4,11 @@ import './footer.css';
 class Footer extends Component {
   render() {
     return (
-      <footer>
+      <div className='foot-home'>
           This is a very silly place.
-      </footer>   
+      </div>   
     
-    );
+    )
   }
 }
 

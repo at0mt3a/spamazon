@@ -4,8 +4,10 @@ import './header.css';
 class Header extends Component {
   render() {
     return (
-      <header>
+      <header className="head-home">
+          <div>LOGO</div>
           <div>Welcome to Spamazon!</div>
+          <div>Spamburger Menu</div>
       </header>   
     
     );

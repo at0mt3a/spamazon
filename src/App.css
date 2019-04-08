@@ -1,7 +1,7 @@
 header {
   background-color: red;
   color: white;
-  flex-grow: .5;
+  flex-grow: .75;
   text-align: center;
   display: flex;
   justify-content: space-around;

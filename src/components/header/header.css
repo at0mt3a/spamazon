@@ -1,0 +1,10 @@
+.head-home {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
