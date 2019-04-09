@@ -1,7 +1,7 @@
 .main-home {
     display: flex;
     flex-direction: row;
-    flex-grow:4;
+    flex-grow:3;
     background-color: green;
     justify-content: space-around;
     align-items: center;
