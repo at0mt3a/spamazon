@@ -2,11 +2,14 @@
     display: flex;
     flex-direction: row;
     flex-grow:3;
-    background-color: green;
     justify-content: space-around;
     align-items: center;
     margin: 5px;
+    background: url("/images/starsky_matrix.jpg");
     border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
 }
 
 .welcome-box {
