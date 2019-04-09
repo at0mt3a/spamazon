@@ -4,8 +4,8 @@ import './side.css';
 class Side extends Component {
   render() {
     return (
-      <div>
-          "side" One, Two, Five!
+      <div className='landing-side'>
+          One, Two, Five!
       </div>   
     
     );

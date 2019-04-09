@@ -6,6 +6,9 @@ import Main from '../../components/main/main.js'
 import Side from '../../components/side/side.js'
 
 class Item extends Component {
+  static state = {
+    
+  }
     render() {
       return (
         <div className="item">

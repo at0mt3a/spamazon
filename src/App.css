@@ -1,1 +1,16 @@
+.whole {
+    background: url("/images/brickwall1.png");
+    padding: 20px;
+    min-height: 100vh;
+}
 
+.radio-bar {
+    background-color:white;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

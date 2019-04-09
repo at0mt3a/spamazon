@@ -6,12 +6,15 @@ import Main from '../../components/main/main.js'
 import Side from '../../components/side/side.js'
 
 class Landing extends Component {
+  static state = {
+    
+  }
     render() {
       return (
         <div className="landing">
           <Header />
           <div className="middle">
-            <side>blah</side>
+            <Side />
             <main>
               <div className="item-display"></div>
               <div className="item-display"></div>
