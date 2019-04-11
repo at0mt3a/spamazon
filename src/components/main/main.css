@@ -1,7 +1,7 @@
 .main-home {
     display: flex;
     flex-direction: row;
-    flex-grow:3;
+    flex-grow:4;
     justify-content: space-around;
     align-items: center;
     margin: 5px;
@@ -15,18 +15,18 @@
 .welcome-box {
   display:flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 247, 0);
   border-radius: 10px;
-  padding: 7px;
+  padding: 5px;
   height: 60vh;
   width: 35%;
   box-shadow: 10px 10px 5px;
 }
 
 .welcome-box > * {
-    padding: .7em;
+    
 }
 
 .form-box {

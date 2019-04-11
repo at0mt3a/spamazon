@@ -5,7 +5,7 @@ class Side extends Component {
   render() {
     return (
       <div className='landing-side'>
-          One, Two, Five!
+          <div>One, Two, Five!</div>
       </div>   
     
     );

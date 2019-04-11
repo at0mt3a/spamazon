@@ -1,6 +1,8 @@
 .whole {
     background: url("/images/brickwall1.png");
-    padding: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -14,3 +16,20 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.mid {
+    max-height: 80%;
+}
+
+.head {
+    flex-grow: 1;
+}
+
+.mid {
+    flex-grow: 8;
+}
+
+.foot {
+    flex-grow: 1;
+}
+
